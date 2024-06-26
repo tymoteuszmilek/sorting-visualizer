@@ -1,5 +1,5 @@
 # Sorting Algorithm Visualization 
-![Sorting Algorithm Visualization](screenshots/sorting_visualizer.png)
+![Sorting Algorithm Visualization](screenshots/sortingVisualizer.png)
 
 ## Overview
 This Streamlit web application visualizes various sorting algorithms in action, allowing you to interactively explore how each algorithm sorts random arrays.
