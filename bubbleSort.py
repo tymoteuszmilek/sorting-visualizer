@@ -24,8 +24,13 @@ def bubbleSort(arr):
             else:
                 steps.append({
                     'array': arr.copy(),
-                    'currentPos': [i]
+                    'currentPos': [i],
+                    'highlight': [i + 1],
                 })
         n -= 1
+
+    steps.append({
+        'array': arr.copy(),
+    })
 
     return steps
