@@ -8,10 +8,6 @@ This project is a visual representation of various sorting algorithms. It provid
 - **Adjustable Parameters:** Change the array size and animation speed.
 - **Real-Time Visualization:** Watch how the array gets sorted step-by-step.
 - **Highlighting:** Different colors for boundaries, current position, and swaps for better understanding
--     ***green*** current element
--     ***red*** element that is being compared with current element or current scanning of array
--     ***yellow*** elements that got swapped
--     ***purple*** boundaries
 
 ## Sorting Algorithms Implemented
 - Quick Sort
@@ -20,6 +16,12 @@ This project is a visual representation of various sorting algorithms. It provid
 - Insertion Sort
 - Counting Sort
 - Bubble Sort
+
+## Color Scheme ##
+- **Green:** Represents the current element being processed.
+- **Red:** Indicates elements that are being compared with the current element or the current scan of the array.
+- **Yellow:** Shows elements that have been swapped.
+- **Purple:** Marks boundaries or partitions in algorithms like Quick Sort or Merge Sort.
 
 ## Live Deployment
 
