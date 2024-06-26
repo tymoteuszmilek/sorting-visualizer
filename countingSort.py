@@ -25,4 +25,8 @@ def countingSort(arr):
             index += 1
             count -= 1
 
+    steps.append({
+        'array': arr.copy(),
+    })
+
     return steps
