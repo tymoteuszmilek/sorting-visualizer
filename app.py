@@ -2,11 +2,7 @@ import streamlit as st
 import numpy as np
 import time
 
-import quickSort
-import mergeSort
-import selectionSort
-import insertionSort
-import bubbleSort
+from algorithms import bubbleSort, insertionSort, mergeSort, quickSort, selectionSort
 
 sortingAlgorithms = {
     "Quick Sort": quickSort.quickSort,
