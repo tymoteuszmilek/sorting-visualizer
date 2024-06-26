@@ -7,7 +7,11 @@ This project is a visual representation of various sorting algorithms. It provid
 - **Interactive UI:** Choose from a variety of sorting algorithms.
 - **Adjustable Parameters:** Change the array size and animation speed.
 - **Real-Time Visualization:** Watch how the array gets sorted step-by-step.
-- **Highlighting:** Different colors for boundaries, current position, and swaps for better understanding (green is the current element, red is element that is being compared with current element, yellow are elements that got swapped.
+- **Highlighting:** Different colors for boundaries, current position, and swaps for better understanding
+-     ***green*** current element
+-     ***red*** element that is being compared with current element or current scanning of array
+-     ***yellow*** elements that got swapped
+-     ***purple*** boundaries
 
 ## Sorting Algorithms Implemented
 - Quick Sort
