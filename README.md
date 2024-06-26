@@ -17,6 +17,10 @@ This project is a visual representation of various sorting algorithms. It provid
 - Counting Sort
 - Bubble Sort
 
+## Live Deployment
+
+The project is live and accessible via Streamlit Sharing. You can view it [here](https://share.streamlit.io/your-username/your-repo-name).
+
 ## How to Use
 1. **Setup:**
     - Ensure you have Python and pip installed on your machine.
