@@ -1,13 +1,11 @@
 import streamlit as st
 import numpy as np
 import time
-import matplotlib.pyplot as plt
 
 import quickSort
 import mergeSort
 import selectionSort
 import insertionSort
-import countingSort
 import bubbleSort
 
 sortingAlgorithms = {
@@ -15,21 +13,13 @@ sortingAlgorithms = {
     "Merge Sort": mergeSort.mergeSort,
     "Selection Sort": selectionSort.selectionSort,
     "Insertion Sort": insertionSort.insertionSort,
-    "Counting Sort": countingSort.countingSort,
     "Bubble Sort": bubbleSort.bubbleSort,
 }
 
 # Plot The Array As A Bar Chart
-def plotArray(arr_chart, arr, bar_colors=None):
-    if bar_colors is None:
-        bar_colors = ['#162780'] * len(arr) # Default Color
-
-    fig, ax = plt.subplots()
-    ax.bar(range(len(arr)), arr, color=bar_colors)
-
-    # Display The Plot In The Streamlit App
-    arr_chart.pyplot(fig)
-    plt.close(fig)
+def plotArray(arr_chart, arr):
+    data = {'data': arr}
+    arr_chart.bar_chart(data)
 
 # Main Function To Run The Streamlit App
 def main():
@@ -51,29 +41,8 @@ def main():
         sorted_array = array.copy()
         steps = sortingAlgorithms[algorithm](sorted_array)
         for step in steps:
-            bar_colors = ['#162780'] * len(step['array']) # Default Bar Color
-            # Define Color Of Specified Type Of  Bars
-            if step.get('boundaries'): # Orange
-                for index in step['boundaries']:
-                    if 0 <= index < len(step['array']):
-                        bar_colors[index] = '#FFA500'
-            if step.get('highlight'): # Red
-                for index in step['highlight']:
-                    if 0 <= index < len(step['array']):
-                        bar_colors[index] = '#F00F0F'
-            if step.get('currentPos'): # Green
-                for index in step['currentPos']:
-                    if 0 <= index < len(step['array']):
-                        bar_colors[index] = '#00FF00'
-            if step.get('swapPos'): # Yellow
-                for index in step['swapPos']:
-                    if 0 <= index < len(step['array']):
-                        bar_colors[index] = '#FFFF00'
-
-            # Plot The Array With Updated Colors
-            plotArray(arr_chart, step['array'], bar_colors)
+            plotArray(arr_chart, step['array'])
             time.sleep(delay) # Set The Delay ( By User )
-
 
 if __name__ == '__main__':
     main()

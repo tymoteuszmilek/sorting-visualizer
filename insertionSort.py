@@ -11,11 +11,9 @@ def insertionSort(arr):
             arr[j + 1] = arr[j]
             j -= 1
 
-        steps.append({
-            'array': arr.copy(),
-            'currentPos': [i],
-            'highlight': [j + 1]
-        })
+            steps.append({
+                'array': arr.copy(),
+            })
 
         arr[j + 1] = currentValue
 
