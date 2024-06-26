@@ -19,7 +19,7 @@ This project is a visual representation of various sorting algorithms. It provid
 
 ## Live Deployment
 
-The project is live and accessible via Streamlit Sharing. You can view it [here](https://share.streamlit.io/your-username/your-repo-name).
+The project is live and accessible via Streamlit Sharing. You can view it [here](https://sorting-visualizer-haxdhnrqm6cvfm3cblvr24.streamlit.app).
 
 ## How to Use
 1. **Setup:**
