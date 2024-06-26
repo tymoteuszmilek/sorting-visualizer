@@ -5,11 +5,11 @@ import time
 from algorithms import bubbleSort, insertionSort, mergeSort, quickSort, selectionSort
 
 sortingAlgorithms = {
-    "Quick Sort": quickSort.quickSort,
-    "Merge Sort": mergeSort.mergeSort,
+    "Bubble Sort": bubbleSort.bubbleSort,
     "Selection Sort": selectionSort.selectionSort,
     "Insertion Sort": insertionSort.insertionSort,
-    "Bubble Sort": bubbleSort.bubbleSort,
+    "Merge Sort": mergeSort.mergeSort,
+    "Quick Sort": quickSort.quickSort,
 }
 
 # Plot The Array As A Bar Chart
