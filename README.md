@@ -1,31 +1,23 @@
-# Sorting Algorithm Visualizer
+# Sorting Algorithm Visualization 
 
 ## Overview
-This project is a visual representation of various sorting algorithms. It provides an interactive way to understand how different sorting algorithms work by visualizing the steps taken by the algorithm to sort an array. The project is built using Python and Streamlit for the user interface.
+This Streamlit web application visualizes various sorting algorithms in action, allowing you to interactively explore how each algorithm sorts random arrays.
+
+## Demo
+
+You can access the live demo of this project [here](https://sorting-visualizer-haxdhnrqm6cvfm3cblvr24.streamlit.app).
 
 ## Features
 - **Interactive UI:** Choose from a variety of sorting algorithms.
-- **Adjustable Parameters:** Change the array size and animation speed.
+- **Adjustable Parameters:** Change the array size and animation delay.
 - **Real-Time Visualization:** Watch how the array gets sorted step-by-step.
-- **Highlighting:** Different colors for boundaries, current position, and swaps for better understanding
 
 ## Sorting Algorithms Implemented
 - Quick Sort
 - Merge Sort
 - Selection Sort
 - Insertion Sort
-- Counting Sort
 - Bubble Sort
-
-## Color Scheme ##
-- **Green:** Represents the current element being processed.
-- **Red:** Indicates elements that are being compared with the current element or the current scan of the array.
-- **Yellow:** Shows elements that have been swapped.
-- **Purple:** Marks boundaries or partitions in algorithms like Quick Sort or Merge Sort.
-
-## Live Deployment
-
-The project is live and accessible via Streamlit Sharing. You can view it [here](https://sorting-visualizer-haxdhnrqm6cvfm3cblvr24.streamlit.app).
 
 ## How to Use
 1. **Setup:**
@@ -45,7 +37,7 @@ The project is live and accessible via Streamlit Sharing. You can view it [here]
       ```bash
       streamlit run visualizer.py
       ```
-    - Open the web browser and go to the provided local URL.
+    - Open the web browser and go to 'localhost:8501' to view the app.
 
 3. **Interact with the App:**
     - Select a sorting algorithm from the dropdown menu.
