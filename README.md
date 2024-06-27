@@ -6,7 +6,7 @@ This Streamlit web application visualizes various sorting algorithms in action, 
 
 ## Demo
 
-You can access the live demo of this project [here](https://sorting-visualizer-haxdhnrqm6cvfm3cblvr24.streamlit.app).
+You can access the live demo of this project [here](https://tymoteuszmilek-sorting-visualization-main-knhseu.streamlit.app).
 
 ## Features
 - **Interactive UI:** Choose from a variety of sorting algorithms.
